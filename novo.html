@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cadastro de Usuário</h1>
+
+    <form action="segunda.html" method="get">
+
+         <label>Nome Completo:</label><br>
+    <input type="text" name="nome" required><br><br>
+
+    <label>Data de Nascimento:</label><br>
+    <input type="date" name="data" required><br><br>
+
+      <label>CPF:</label><br>
+    <input type="text" name="cpf" maxlength="11" placeholder="Apenas números (11 dígitos)" required><br><br>
+
+     <label>Gênero:</label><br>
+    <select name="genero" required>
+        <option value="">Selecione...</option>
+        <option>Masculino</option>
+        <option>Feminino</option>
+        <option>Não-binário</option>
+        <option>Outro</option>
+    </select><br><br>
+
+     <label>Telefone:</label><br>
+    <input type="tel" name="telefone" placeholder="(XX) XXXXX-XXXX" required><br><br>
+
+       <label>E-mail:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label>Cidade:</label><br>
+    <input type="text" name="cidade" required><br><br>
+
+       <label>UF (Estado):</label><br>
+    <select name="uf" required>
+        <option value="">Selecione</option>
+        <option>PE</option>
+        <option>AL</option>
+        <option>BA</option>
+        <option>CE</option>
+        <option>PB</option>
+        <option>RN</option>
+        <option>SE</option>
+        <option>PI</option>
+        <option>MA</option>
+    </select><br><br>
+
+      <input type="submit" value="Cadastrar">
+
+
+    </form>
+</body>
+</html>
